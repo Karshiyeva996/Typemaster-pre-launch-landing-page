@@ -94,4 +94,52 @@ body {
     width: 40px;
     height: 40px;
     object-fit: cover;
+} 
+
+.site-hero {
+    padding-top: 189px;
+    padding-bottom: 18px;
+}
+
+
+
+.site-hero__title {
+    max-width: 445px;
+    width: 100%;
+    color: var(--dark-blue);
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+.site-hero__text { 
+    max-width: 445px;
+    width: 100%;
+    color: var(--light-blue);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.site-hero__button {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.site-hero__release {
+    color: var(--light-blue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+
+
+.keyword-image {
+    max-width: 540px;
+    width: 100%;
 }
